@@ -1,0 +1,171 @@
+2025-07-01 12:51:00 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:04 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:36 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:44 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:54:11 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:21 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:28 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:38 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 13:32:37 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\messages_project.ejs:144
+    142|                         <li class="message-item">
+    143|                             <div class="avatar">
+ >> 144|                                 <img src="<%= getCloudinaryImageUrl(msg.sender_avatar, '/uploads/images/pngwing.com.png') %>" alt="Avatar">
+    145|                             </div>
+    146|                             <div class="message-content">
+    147|                                 <div class="message-header">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\messages_project.ejs":22:7)
+    at messages_project (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at showConversation (C:\Users\sch2\Desktop\uploadssite\controllers\MessagesProjectController.js:86:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
