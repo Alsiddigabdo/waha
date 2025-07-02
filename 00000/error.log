@@ -1,0 +1,342 @@
+2025-07-01 12:51:00 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:04 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:36 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:51:44 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:54:11 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\forum.ejs:961
+    959|               <a href="/profile?userId=<%= currentUserId %>">
+    960|                 <img
+ >> 961|                   src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    962|                   alt="صورة المستخدم"
+    963|                   onerror="this.src='/uploads/images/pngwing.com.png'"
+    964|                   loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\uploadssite\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:21 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:28 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 12:58:38 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\profile.ejs:700
+    698|             <div class="profile-header">
+    699|                 <div class="avatar-section">
+ >> 700|                     <img src="<%= getCloudinaryImageUrl(user.avatar, '/uploads/images/pngwing.com.png') %>"
+    701|                          alt="Profile Picture"
+    702|                          class="profile-picture"
+    703|                          onerror="this.src='/Uploads/images/pngwing.com.png'">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\profile.ejs":66:7)
+    at profile (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at GetProfileControllers (C:\Users\sch2\Desktop\uploadssite\controllers\ProfileControllers.js:112:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-01 13:32:37 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\uploadssite\views\messages_project.ejs:144
+    142|                         <li class="message-item">
+    143|                             <div class="avatar">
+ >> 144|                                 <img src="<%= getCloudinaryImageUrl(msg.sender_avatar, '/uploads/images/pngwing.com.png') %>" alt="Avatar">
+    145|                             </div>
+    146|                             <div class="message-content">
+    147|                                 <div class="message-header">
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\uploadssite\\views\\messages_project.ejs":22:7)
+    at messages_project (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\uploadssite\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\uploadssite\node_modules\express\lib\response.js:1049:7)
+    at showConversation (C:\Users\sch2\Desktop\uploadssite\controllers\MessagesProjectController.js:86:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 17:47:18 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1094
+    1092|                   <a href="/profile?userId=<%= currentUserId %>">
+    1093|                     <img
+ >> 1094|                       src="<%= getCloudinaryImageUrl(currentUserAvatar, '/uploads/images/pngwing.com.png') %>"
+    1095|                       alt="صورة المستخدم"
+    1096|                       onerror="this.src='/uploads/images/pngwing.com.png'"
+    1097|                       loading="lazy"
+
+getCloudinaryImageUrl is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":57:7)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:33:30 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1265
+    1263|  
+    1264|   <script>
+ >> 1265|     window.adLimitExceeded = '<%= adLimitExceeded ? 'true' : 'false' %>';
+    1266|   </script>
+    1267|   <script>
+    1268|     document.addEventListener('DOMContentLoaded', function() {
+
+adLimitExceeded is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":261:26)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:33:32 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1265
+    1263|  
+    1264|   <script>
+ >> 1265|     window.adLimitExceeded = '<%= adLimitExceeded ? 'true' : 'false' %>';
+    1266|   </script>
+    1267|   <script>
+    1268|     document.addEventListener('DOMContentLoaded', function() {
+
+adLimitExceeded is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":261:26)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:33:55 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1265
+    1263|  
+    1264|   <script>
+ >> 1265|     window.adLimitExceeded = "<%= adLimitExceeded ? 'true' : 'false' %>";
+    1266|   </script>
+    1267|   <script>
+    1268|     document.addEventListener('DOMContentLoaded', function() {
+
+adLimitExceeded is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":261:26)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:34:44 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1265
+    1263|  
+    1264|   <script>
+ >> 1265|     window.adLimitExceeded = "<%= adLimitExceeded ? 'true' : 'false' %>";
+    1266|   </script>
+    1267|   <script>
+    1268|     document.addEventListener('DOMContentLoaded', function() {
+
+adLimitExceeded is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":261:26)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:52:45 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1388
+    1386|                   commentElement.innerHTML = `
+    1387|                     <a href="/profile?userId=${comment.user_id}">
+ >> 1388|                       <% if (comment.user_avatar && comment.user_avatar.startsWith('http')) { %>
+    1389|                         <img src="${comment.user_avatar}" alt="${comment.user_name}" class="avatar" />
+    1390|                       <% } else { %>
+    1391|                         <i class="fas fa-user-circle avatar-fallback" style="font-size:40px; color:#bbb;"></i>
+
+comment is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":282:8)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 18:53:01 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1388
+    1386|                   commentElement.innerHTML = `
+    1387|                     <a href="/profile?userId=${comment.user_id}">
+ >> 1388|                       <% if (comment.user_avatar && comment.user_avatar.startsWith('http')) { %>
+    1389|                         <img src="${comment.user_avatar}" alt="${comment.user_name}" class="avatar" />
+    1390|                       <% } else { %>
+    1391|                         <i class="fas fa-user-circle avatar-fallback" style="font-size:40px; color:#bbb;"></i>
+
+comment is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":282:8)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 19:01:16 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1388
+    1386|                   commentElement.innerHTML = `
+    1387|                     <a href="/profile?userId=${comment.user_id}">
+ >> 1388|                       <% if (comment.user_avatar && comment.user_avatar.startsWith('http')) { %>
+    1389|                         <img src="${comment.user_avatar}" alt="${comment.user_name}" class="avatar" />
+    1390|                       <% } else { %>
+    1391|                         <i class="fas fa-user-circle avatar-fallback" style="font-size:40px; color:#bbb;"></i>
+
+comment is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":282:8)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02 19:01:23 [31merror[39m: ReferenceError: C:\Users\sch2\Desktop\00000\views\forum.ejs:1388
+    1386|                   commentElement.innerHTML = `
+    1387|                     <a href="/profile?userId=${comment.user_id}">
+ >> 1388|                       <% if (comment.user_avatar && comment.user_avatar.startsWith('http')) { %>
+    1389|                         <img src="${comment.user_avatar}" alt="${comment.user_name}" class="avatar" />
+    1390|                       <% } else { %>
+    1391|                         <i class="fas fa-user-circle avatar-fallback" style="font-size:40px; color:#bbb;"></i>
+
+comment is not defined
+    at eval ("C:\\Users\\sch2\\Desktop\\00000\\views\\forum.ejs":282:8)
+    at forum (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:703:17)
+    at tryHandleCache (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:274:36)
+    at exports.renderFile [as engine] (C:\Users\sch2\Desktop\00000\node_modules\ejs\lib\ejs.js:491:10)
+    at View.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:657:10)
+    at Function.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\application.js:609:3)
+    at ServerResponse.render (C:\Users\sch2\Desktop\00000\node_modules\express\lib\response.js:1049:7)
+    at getAllPosts (C:\Users\sch2\Desktop\00000\controllers\ForumController.js:319:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
